@@ -1,0 +1,549 @@
+a, hr {
+	padding: 0
+}
+a, button, input, select, textarea {
+	margin: 0
+}
+article, aside, details, figure, footer, header, hr, nav, section, summary {
+	display: block
+}
+body, td {
+	font-weight: 400
+}
+body>header, p.centered {
+	text-align: center
+}
+.btn, .timetable {
+	text-transform: uppercase
+}
+.content-wrap::after, .hero-wrap::after, .timetable section header::after, .timetable::after {
+	clear: both;
+	content: ""
+}
+abbr, address, article, aside, audio, b, blockquote, body, body div, caption, cite, code, dd, del, details, dfn, dl, dt, em, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, ul, var, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-weight: 400;
+	vertical-align: baseline;
+	background: 0 0
+}
+strong, th {
+	font-weight: 700
+}
+input[type=checkbox], th {
+	vertical-align: bottom
+}
+html {
+	box-sizing: border-box;
+	overflow-y: scroll
+}
+*, :after, :before {
+	box-sizing: inherit
+}
+embed, img, object {
+	max-width: 100%
+}
+ul {
+	list-style: none
+}
+blockquote, q {
+	quotes: none
+}
+blockquote:after, blockquote:before, q:after, q:before {
+	content: '';
+	content: none
+}
+a {
+	font-size: 100%;
+	vertical-align: baseline;
+	background: 0 0
+}
+del {
+	text-decoration: line-through
+}
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted #000;
+	cursor: help
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	font: 100%
+}
+td {
+	vertical-align: top
+}
+hr {
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc
+}
+input, select {
+	vertical-align: middle
+}
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	white-space: pre-line;
+	word-wrap: break-word
+}
+input[type=radio] {
+	vertical-align: text-bottom
+}
+.ie7 input[type=checkbox] {
+	vertical-align: baseline
+}
+.ie6 input {
+	vertical-align: text-bottom
+}
+input, select, textarea {
+	font: 99% sans-serif
+}
+small {
+	font-size: 85%
+}
+td, td img {
+	vertical-align: top
+}
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative
+}
+sup {
+	top: -.5em
+}
+sub {
+	bottom: -.25em
+}
+code, kbd, pre, samp {
+	font-family: monospace, sans-serif
+}
+.clickable, button, input[type=button], input[type=file], input[type=submit], label {
+	cursor: pointer
+}
+button, input[type=button] {
+	width: auto;
+	overflow: visible
+}
+.ie7 img {
+	-ms-interpolation-mode: bicubic
+}
+.clearfix:after, .clearfix:before {
+	content: "\0020";
+	display: block;
+	height: 0;
+	overflow: hidden
+}
+.clearfix:after {
+	clear: both
+}
+.clearfix {
+	zoom: 1
+}
+.content-wrap>section, .hero-wrap>section, body>header .cta-column, body>header .demo-column, body>header .title-bar {
+	display: inline-block;
+	min-height: 1px;
+	box-sizing: border-box
+}
+.content-wrap, .hero-wrap {
+	padding: 0 1.5em;
+	margin: 0 auto
+}
+
+@media screen and (min-width:768px) {
+.content-wrap {
+	max-width: 768px
+}
+}
+
+@media screen and (min-width:992px) {
+.content-wrap {
+	max-width: 768px
+}
+}
+
+@media screen and (min-width:768px) {
+.hero-wrap {
+	max-width: 960px
+}
+}
+
+@media screen and (min-width:992px) {
+.hero-wrap {
+	max-width: 960px
+}
+}
+
+@media screen and (min-width:1200px) {
+.content-wrap {
+	max-width: 960px
+}
+.hero-wrap {
+	max-width: 1200px
+}
+}
+.timetable {
+	box-sizing: border-box
+}
+.timetable::after {
+	display: table
+}
+.timetable aside .row-heading, .timetable section time {
+	white-space: nowrap;
+	display: inline-block
+}
+.timetable *, .timetable :after, .timetable :before {
+	box-sizing: inherit
+}
+.timetable li, .timetable ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none
+}
+.timetable aside, .timetable section {
+	float: left
+}
+.timetable aside {
+	width: 25%;
+	padding: 0!important;
+	margin-top: 42px;
+	border-right: 1px solid transparent
+}
+.timetable aside li {
+	padding: 0 15px;
+	background-color: #4F4F4F;
+	line-height: 42px
+}
+.timetable aside li:not(:last-of-type) {
+	border-bottom: 1px solid #fff
+}
+.timetable aside .row-heading {
+	max-width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-wrap: normal
+}
+.timetable ul {
+	list-style-type: none;
+	margin: 0
+}
+.timetable aside li, .timetable time li {
+	height: 42px
+}
+.timetable section {
+	width: 75%;
+	padding: 0!important;
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch
+}
+.timetable section header {
+	height: 42px;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	font-size: 0
+}
+.timetable section header::after {
+	display: table
+}
+.timetable section header li {
+	font-size: 1rem;
+	overflow: visible;
+	width: 0;
+	line-height: 42px;
+	display: inline-block;
+	position: relative
+}
+.timetable section header li:not(:last-of-type) {
+	width: 96px
+}
+.timetable section header li .time-label {
+	display: block;
+	position: absolute;
+	left: 0
+}
+.timetable section header li:not(:first-of-type) .time-label {
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%)
+}
+.timetable section header li:last-of-type .time-label {
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%)
+}
+
+@media only screen and (min-width:0px) {
+.timetable aside {
+	width: 40%
+}
+.timetable section {
+	width: 60%
+}
+}
+.timetable ul.room-timeline {
+	border-left: none;
+	position: relative;
+	overflow: hidden
+}
+.timetable ul.room-timeline li {
+	position: relative;
+	background-color: #F7F7F7
+}
+.timetable ul.room-timeline li:nth-of-type(odd) {
+	background-color: #F7F7F7
+}
+.timetable ul.room-timeline li:first-of-type {
+	border-top: 1px solid #E5E5E5
+}
+.timetable ul.room-timeline li:last-of-type {
+	border-bottom: 1px solid #E5E5E5
+}
+.timetable ul.room-timeline li:not(:last-of-type) {
+	border-bottom: none
+}
+.timetable ul.room-timeline li:first-child .time-entry {
+	height: 40px
+}
+.timetable ul.room-timeline li:after, .timetable ul.room-timeline li:before {
+	content: "";
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0
+}
+.timetable ul.room-timeline li:before {
+	background-image: linear-gradient(to right, #E5E5E5 1px, transparent 1px);
+	background-size: 24px auto
+}
+.timetable ul.room-timeline li:after {
+	background-image: linear-gradient(to right, #E5E5E5, #E5E5E5 1px, #F7F7F7 1px, #F7F7F7 2px, #E5E5E5 2px, #E5E5E5 3px, transparent 3px, transparent);
+	background-size: 96px auto;
+	background-position: -2px 0
+}
+.timetable .time-entry {
+	background-color: #B7CE42;
+	transition: 200ms background-color;
+	height: 41px;
+	display: block;
+	position: absolute;
+	z-index: 2;
+	padding: 0 10px;
+	white-space: normal;
+	overflow: hidden;
+	color: #fff;
+	border: none;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d
+}
+.timetable .time-entry small {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	display: block
+}
+.timetable .time-entry:hover {
+	background-color: #91B515
+}
+.grey-bg-color, pre {
+	background-color: #F7F7F7
+}
+body {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	color: #62627A;
+	line-height: 2;
+	-webkit-font-smoothing: antialiased
+}
+a {
+	text-decoration: none;
+	color: #6A1AC8
+}
+img {
+	max-width: 100%;
+	height: auto
+}
+.btn, .timetable .row-heading, .timetable .time-label, h1, h2, h3 {
+	font-family: Lato, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-weight: 300;
+	margin-left: -3px;
+	margin-bottom: .7em;
+	line-height: 1
+}
+h1 {
+	font-size: 2.875em;
+	line-height: 1.25;
+	margin-top: .7em;
+	margin-bottom: 1em
+}
+h2 {
+	font-size: 2.625em
+}
+.btn, .timetable .row-heading, .timetable .time-label, h3 {
+	font-weight: 600;
+	letter-spacing: -.02em
+}
+code, pre {
+	font-size: .95em
+}
+pre {
+	color: #000;
+	padding: 1.2em 1.4em;
+	margin: 1em 0;
+	line-height: 1.5;
+	overflow-x: scroll;
+	border-radius: 3px
+}
+p+p {
+	margin-top: 1.5em
+}
+hr {
+	margin: 4em 0;
+	border-color: #F7F7F7
+}
+.primary-bg-color {
+	background-color: #6A1AC8
+}
+.flip-text-color .btn, .flip-text-color .timetable .row-heading, .flip-text-color .timetable .time-label, .flip-text-color h1, .flip-text-color h2, .flip-text-color h3, .timetable .flip-text-color .row-heading, .timetable .flip-text-color .time-label, .timetable body>header .row-heading, .timetable body>header .time-label, body>header .btn, body>header .timetable .row-heading, body>header .timetable .time-label, body>header h1, body>header h2, body>header h3 {
+	color: #fff
+}
+.flip-text-color, .flip-text-color p, body>header, body>header p {
+	color: #B990E6
+}
+.btn {
+	background-color: rgba(48,36,174,.7);
+	display: inline-block;
+	padding: 1.15em 2.7em;
+	font-size: .78em;
+	letter-spacing: .09em;
+	border-radius: 4px;
+	transition: background-color 300ms ease;
+	margin: .3em
+}
+.btn.secondary:hover, .btn:hover {
+	background-color: rgba(195,108,213,.8)
+}
+.btn.secondary {
+	background-color: rgba(48,36,174,.4)
+}
+.vpad {
+	padding-top: 4.5em;
+	padding-bottom: 4.5em
+}
+.sm-vpad, body>header .hero-wrap, footer section {
+	padding-top: 2.5em;
+	padding-bottom: 2.5em
+}
+.github-ribbon {
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	right: 0
+}
+
+@media screen and (max-width:768px) {
+.github-ribbon {
+	display: none
+}
+}
+.browserupgrade {
+	margin: .2em 0;
+	background: #ccc;
+	color: #000;
+	padding: .2em 0
+}
+.content-wrap>section, .hero-wrap>section, body>header .cta-column, body>header .demo-column, body>header .title-bar {
+	float: left;
+	direction: ltr;
+	padding-left: 10px;
+	padding-right: 10px
+}
+body>header {
+	background-image: linear-gradient(135deg, #C36CD5, #3024AE)
+}
+body>header .hero-wrap {
+	position: relative
+}
+body>header .cta-column, body>header .title-bar {
+	width: 100%
+}
+
+@media screen and (min-width:768px) {
+body>header {
+	text-align: left
+}
+body>header .hero-wrap {
+	-webkit-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	height: 100vh
+}
+body>header .cta-column {
+	width: 58.3333333333%
+}
+}
+body>header .demo-column {
+	width: 100%
+}
+
+@media screen and (min-width:768px) {
+body>header .demo-column {
+	width: 41.6666666667%;
+	text-align: right
+}
+body>header .cta-column, body>header .demo-column {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%)
+}
+}
+body>header .demo-wrapper {
+	position: relative;
+	display: inline-block;
+	max-width: 100%
+}
+body>header .demo-wrapper .viewport {
+	position: absolute;
+	width: 65%;
+	height: 74.7%;
+	left: 16.3%;
+	bottom: 16.3%;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch
+}
+.timetable {
+	text-align: left;
+	color: #fff;
+	font-size: .72em;
+	margin-top: -1em
+}
+.timetable .row-heading {
+	font-size: .875em
+}
+.timetable .time-label {
+	color: #000!important;
+	font-size: .6rem;
+	letter-spacing: .13em;
+	line-height: 42px
+}
+.timetable time {
+	transition: margin-left 550ms ease-in-out
+}
+.timetable.animate time {
+	margin-left: -200px;
+	transition: margin-left 400ms ease-in-out
+}
+.content-wrap::after, .hero-wrap::after {
+	display: table
+}
+.content-wrap>section, .hero-wrap>section {
+	width: 100%
+}
+footer section {
+	border-top: 1px solid #F7F7F7
+}
